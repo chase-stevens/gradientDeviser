@@ -4,33 +4,41 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Gradient Creator</h1>
-  <div id="gradient"></div>
 
-  <br>
-
-  <div id="gradient_input">
-    <form id="gradient_form">
-
-      <div>
-        <label for="start_color">Starting Color</label>
-        <input type="color" name="start_color" value="#ff0000" required>
-      </div>
-
-      <div>
-        <label for="end_color">Ending Color</label>
-        <input type="color" name="end_color" value="#0000ff" required>
-      </div>
-
-      <div>
-        <label for="angle">Angle</label>
-        <input type="number" name="angle" value="225" min="0" max="360" required>
-      </div>
-
-      <button type="button" name="create_button" onclick="create_gradient();">Create Gradient</button>
-
-    </form>
+  <div class="sidenav">
+    <a href="#">one</a>
+    <a href="#">two</a>
+    <a href="#">three</a>
   </div>
+
+  <div class="container">
+    <h1>Gradient Creator</h1>
+    <div id="gradient"></div>
+
+    <div id="gradient_input">
+      <form id="gradient_form">
+
+        <div>
+          <label for="start_color">Starting Color</label>
+          <input type="color" name="start_color" value="#ff0000" required>
+        </div>
+
+        <div>
+          <label for="end_color">Ending Color</label>
+          <input type="color" name="end_color" value="#0000ff" required>
+        </div>
+
+        <div>
+          <label for="angle">Angle</label>
+          <input type="number" name="angle" value="225" min="0" max="360" required>
+        </div>
+
+        <button type="button" name="create_button" onclick="create_gradient();">Create Gradient</button>
+
+      </form>
+    </div>
+  </div>
+
   <script src="main.js"></script>
 </body>
 </html>
