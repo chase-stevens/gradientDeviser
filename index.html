@@ -12,14 +12,20 @@
   <div id="gradient_input">
     <form id="gradient_form">
 
-      <label for="start_color">Starting Color</label>
-      <input type="color" name="start_color"><br>
+      <div>
+        <label for="start_color">Starting Color</label>
+        <input type="color" name="start_color">
+      </div>
 
-      <label for="end_color">Ending Color</label>
-      <input type="color" name="end_color"><br>
+      <div>
+        <label for="end_color">Ending Color</label>
+        <input type="color" name="end_color">
+      </div>
 
-      <label for="angle">Angle</label>
-      <input type="number" name="angle" value="0" min="0" max="360" required><br>
+      <div>
+        <label for="angle">Angle</label>
+        <input type="number" name="angle" value="0" min="0" max="360" required>
+      </div>
 
       <button type="button" name="create_button" onclick="create_gradient();">Create Gradient</button>
 
