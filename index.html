@@ -10,7 +10,7 @@
     <p>Presets</p>
     <div class="preset-gradient-menu-item">
       <div class="gradient-preview gradient-peach" id="gradient-peach"></div> Peach
-        <button onclick="load_gradient('gradient-peach');">
+        <button onclick="load_gradient_preset('gradient-peach');">
           <i class="fas fa-angle-double-right"></i>
         </button>
     </div>
@@ -25,17 +25,17 @@
 
         <div>
           <label for="start_color">Starting Color</label>
-          <input type="color" name="start_color" value="#ff0000" required>
+          <input type="color" name="start_color" id="start_color" value="#ff0000" required>
         </div>
 
         <div>
           <label for="end_color">Ending Color</label>
-          <input type="color" name="end_color" value="#0000ff" required>
+          <input type="color" name="end_color" id="end_color" value="#0000ff" required>
         </div>
 
         <div>
           <label for="angle">Angle</label>
-          <input type="number" name="angle" value="45" min="0" max="360" required>
+          <input type="number" name="angle" id="angle" value="45" min="0" max="360" required>
         </div>
 
         <button type="button" name="create_button" onclick="create_gradient();">Create Gradient</button>
