@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gradient Creator</h1>
+  <div id="gradient"></div>
+
+  <br>
+
+  <div id="gradient_input">
+    <form id="gradient_form">
+
+      <label for="start_color">Starting Color</label>
+      <input type="color" name="start_color"><br>
+
+      <label for="end_color">Ending Color</label>
+      <input type="color" name="end_color"><br>
+
+      <label for="angle">Angle</label>
+      <input type="number" name="angle" value="0" min="0" max="360" required><br>
+
+      <button type="button" name="create_button" onclick="create_gradient();">Create Gradient</button>
+
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
