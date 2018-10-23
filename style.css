@@ -3,7 +3,6 @@ body {
   text-align: center
 }
 
-/*
 .sidenav {
   height: 100%;
   width: 250px;
@@ -16,17 +15,24 @@ body {
   padding-top: 20px;
 }
 
-.sidenav a {
+.sidenav a, p {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
 }
-*/
+
+.preset-gradient-menu-item .gradient-preview {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 2.5px;
+  background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);
+}
 
 .container {
-  /*margin-left: 250px;*/
+  margin-left: 250px;
   width: auto;
 }
 
