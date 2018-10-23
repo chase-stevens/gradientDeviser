@@ -20,4 +20,5 @@ function create_gradient() {
   let gradient_data = collect_gradient_data();
   let gradient = render_gradient(gradient_data[2], gradient_data[1], gradient_data[0]);
   document.getElementById("gradient").style.backgroundImage = gradient;
+  document.getElementById("gradient-css-code").innerHTML = "background-image: " + gradient + ";";
 }
