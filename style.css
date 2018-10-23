@@ -1,23 +1,20 @@
 body {
   font-family: sans-serif;
+  text-align: center
 }
 
 #gradient {
-  width: 500px;
-  height: 500px;
+  margin: auto;
+  width: 75%;
+  height: 250px;
   border-radius: 25px;
   background-image: linear-gradient(45deg, red, blue);
 }
 
 #gradient_form {
-  position: absolute;
-  right: 10%;
-  top: 10%;
+  position: relative;
+  margin: auto;
   width: 250px;
   height: auto;
   border: 1px solid red;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }

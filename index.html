@@ -14,17 +14,17 @@
 
       <div>
         <label for="start_color">Starting Color</label>
-        <input type="color" name="start_color">
+        <input type="color" name="start_color" value="#ff0000" required>
       </div>
 
       <div>
         <label for="end_color">Ending Color</label>
-        <input type="color" name="end_color">
+        <input type="color" name="end_color" value="#0000ff" required>
       </div>
 
       <div>
         <label for="angle">Angle</label>
-        <input type="number" name="angle" value="0" min="0" max="360" required>
+        <input type="number" name="angle" value="225" min="0" max="360" required>
       </div>
 
       <button type="button" name="create_button" onclick="create_gradient();">Create Gradient</button>
