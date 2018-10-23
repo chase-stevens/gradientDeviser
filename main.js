@@ -18,7 +18,25 @@ function render_gradient(angle, start_color, end_color) {
 
 function create_gradient() {
   let gradient_data = collect_gradient_data();
-  let gradient = render_gradient(gradient_data[2], gradient_data[1], gradient_data[0]);
+  let gradient = render_gradient(gradient_data[2], gradient_data[0], gradient_data[1]);
   document.getElementById("gradient").style.backgroundImage = gradient;
   document.getElementById("gradient-css-code").innerHTML = "background-image: " + gradient + ";";
+}
+
+function copyToClipboard(){
+  /* Get the text field */
+  let copyText = document.getElementById("gradient-css-code").innerHTML;
+
+  const el = document.createElement('textarea');
+  el.value = copyText;
+  el.setAttribute('readonly', '');
+  el.style.position = 'absolute';
+  el.style.left = '-9999px';
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText);
 }
