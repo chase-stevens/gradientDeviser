@@ -42,3 +42,11 @@ body {
   height: auto;
   border: 1px solid red;
 }
+
+.css-code-container {
+  width: auto;
+  border-radius: 5px;
+  background-color: #f7f8f9;
+  color: black;
+  font-family: Source Code Pro, monospace;
+}
