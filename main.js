@@ -23,7 +23,16 @@ function create_gradient() {
   document.getElementById("gradient-css-code").innerHTML = "background-image: " + gradient + ";";
 }
 
-function copyToClipboard(){
+function load_gradient(gradient_element){
+  console.log(gradient_element);
+  let el = document.getElementById(gradient_element);
+  let style = window.getComputedStyle(el);
+  let gradient = style.getPropertyValue('background-image');
+  console.log(`gradient: ${gradient}`);
+  document.getElementById("gradient").style.backgroundImage = gradient;
+}
+
+function copy_to_clipboard(){
   /* Get the text field */
   let copyText = document.getElementById("gradient-css-code").innerHTML;
 

@@ -9,7 +9,10 @@
   <div class="sidenav">
     <p>Presets</p>
     <div class="preset-gradient-menu-item">
-      <div class="gradient-preview"></div>Peach
+      <div class="gradient-preview gradient-peach" id="gradient-peach"></div> Peach
+        <button onclick="load_gradient('gradient-peach');">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
     </div>
   </div>
 
@@ -44,7 +47,7 @@
 
     <div class="css-code-container">
       <code id="gradient-css-code">background-image: linear-gradient(45deg, #ff0000, #0000ff);</code>
-      <span><button onclick="copyToClipboard();"><i class="fas fa-clipboard-check"></i></button>
+      <span><button onclick="copy_to_clipboard();"><i class="fas fa-clipboard-check"></i></button>
     </div>
   </div>
 
