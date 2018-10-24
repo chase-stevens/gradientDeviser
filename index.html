@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
@@ -84,20 +85,20 @@
     <div id="gradient"></div>
 
     <div id="gradient_input">
-      <form id="gradient_form">
+      <form id="gradient_form" class="gradient_form">
 
         <div>
-          <label for="start_color">Starting Color</label>
+          <label for="start_color"><strong>Starting Color</strong></label>
           <input type="color" name="start_color" id="start_color" value="#ff0000" required>
         </div>
 
         <div>
-          <label for="end_color">Ending Color</label>
+          <label for="end_color"><strong>Ending Color</strong></label>
           <input type="color" name="end_color" id="end_color" value="#0000ff" required>
         </div>
 
         <div>
-          <label for="angle">Angle</label>
+          <label for="angle"><strong>Angle</strong></label>
           <input type="number" name="angle" id="angle" value="45" min="0" max="360" required>
         </div>
 
