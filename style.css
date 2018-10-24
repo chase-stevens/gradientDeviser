@@ -26,10 +26,7 @@ h1 {
   text-align: left;
   margin-left: 25px;
   width: 200px;
-}
-
-.sidenav .preset-gradient-menu-item button {
-  float: right;
+  position: relative;
 }
 
 .sidenav a, p {
@@ -40,8 +37,8 @@ h1 {
   display: block;
 }
 
-.preset-gradient-menu-item {
-  /*border: 1px solid red;*/
+.sidenav span {
+  font-size: 1.25em;
 }
 
 .preset-gradient-menu-item .gradient-preview {
@@ -116,11 +113,11 @@ h1 {
 }
 
 .gradient_form label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 150px;
-    text-align: left;
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 150px;
+  text-align: left;
 }
 
 .gradient_form input {
