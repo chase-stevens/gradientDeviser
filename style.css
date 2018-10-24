@@ -46,13 +46,43 @@ body {
   background-image: linear-gradient(135deg, #FFF720, #3CD500);
 }
 
+.gradient-glimmer {
+  background-image: linear-gradient(135deg, #FAB2FF, #1904E5);
+}
+
+.gradient-sunrise {
+  background-image: linear-gradient(135deg, #FFA8A8, #FCFF00);
+}
+
+.gradient-sunset {
+  background-image: linear-gradient(135deg, #EECE13, #B210FF);
+}
+
+.gradient-lemon {
+  background-image: linear-gradient(135deg, #FDEB71, #F8D800);
+}
+
+.gradient-lavender {
+  background-image: linear-gradient(135deg, #F5CBFF, #C346C2);
+}
+
+.gradient-seafoam {
+  background-image: linear-gradient(135deg, #79F1A4, #0E5CAD);
+}
+
+.gradient-velvet {
+  background-image: linear-gradient(135deg, #3B2667, #BC78EC);
+}
+
 .container {
   margin-left: 250px;
   width: auto;
 }
 
 #gradient {
-  height: 250px;
+  width: 333px;
+  height: 333px;
+  margin: auto;
   border-radius: 25px;
   margin-bottom: 1em;
 }

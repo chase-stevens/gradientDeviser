@@ -14,6 +14,41 @@ const PRESET_GRADIENTS = {
     angle: 135,
     start_color: "#FFF720",
     end_color: "#3CD500"
+  },
+  glimmer: {
+    angle: 135,
+    start_color: "#FAB2FF",
+    end_color: "#1904E5",
+  },
+  sunrise: {
+    angle: 135,
+    start_color: "#FFA8A8",
+    end_color: "#FCFF00",
+  },
+  sunset: {
+    angle: 135,
+    start_color: "#EECE13",
+    end_color: "#B210FF"
+  },
+  lemon: {
+    angle: 135,
+    start_color: "#FDEB71",
+    end_color: "#F8D800",
+  },
+  lavender: {
+    angle: 135,
+    start_color: "#F5CBFF",
+    end_color: "#C346C2",
+  },
+  seafoam: {
+    angle: 135,
+    start_color: "#79F1A4",
+    end_color: "#0E5CAD"
+  },
+  velvet: {
+    angle: 135,
+    start_color: "#3B2667",
+    end_color: "#BC78EC"
   }
 };
 
