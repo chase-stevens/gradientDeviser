@@ -69,31 +69,11 @@ document.onload = render_gradient(set_gradient_rule(
 // Collecting values from the gradient form
 function collect_gradient_data() {
   let gradient_form = document.getElementById("gradient_form");
-  /*
-  gradient_form.addEventListener('keypress', function(event) {
-    if (event.keyCode == 13) {
-      event.preventDefault();
-      set_gradient_object(gradient_form);
-    }
-  }
-
-  create_button.click(set_gradient_object(form){
-
-  }
-  */
   current_gradient.angle = gradient_form[2].value;
   current_gradient.start_color = gradient_form[0].value;
   current_gradient.end_color = gradient_form[1].value;
 }
 
-/*
-// Logic to get current gradient
-function set_gradient_object(form) {
-  current_gradient.angle = form[2].value;
-  current_gradient.start_color = form[0].value;
-  current_gradient.end_color = form[1].value;
-}
-*/
 // Makes a css gradient rule from values
 function set_gradient_rule(angle, start_color, end_color) {
   let gradient_value = `linear-gradient(${angle}deg, ${start_color}, ${end_color})`;
