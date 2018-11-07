@@ -1,6 +1,6 @@
-# Gradient Creator
+# Gradient Deviser
 
-Gradient creator is a web app that allows you to easily make beautiful gradients and implement them into your website.
+Gradient Deviser is a web app that allows you to easily make beautiful gradients and implement them into your website.
 
 ## Instructions
 
