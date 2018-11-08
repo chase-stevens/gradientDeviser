@@ -1,0 +1,24 @@
+{
+  "name": "gradientdeviser",
+  "version": "1.0.0",
+  "description": "Gradient Deviser is a web app that allows you to easily make beautiful gradients and implement them into your website.",
+  "main": "main.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chase-stevens/gradient_creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chase-stevens/gradient_creator/issues"
+  },
+  "homepage": "https://github.com/chase-stevens/gradient_creator#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-strongloop": "^2.1.0"
+  }
+}
